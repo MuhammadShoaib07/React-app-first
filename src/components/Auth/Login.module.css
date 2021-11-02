@@ -1,0 +1,14 @@
+.login {
+  width: 90%;
+  margin: 5rem 5rem;
+  animation: meals-appear 1s ease-out forwards;
+  text-align: center;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login form input {
+  width: 100%;
+}
