@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import CartIcon from "../Cart/CartIcon";
 import CartContext from "../../store/cart-context";
-import classes from "./HeaderCartButton.module.css";
+import classes from "../../assets/HeaderCartButton.module.css";
 import { useHistory } from "react-router";
 
 const HeaderCartButton = (props) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./MainImage.module.css";
+import classes from "../../assets/MainImage.module.css";
 import mealsImage from "../../assets/meals.jpg";
 const MainImage = () => {
   return (

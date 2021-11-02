@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useEffect } from "react";
 import Input from "../UI/Input";
 import Card from "../UI/Card";
-import classes from "./SignUp.module.css";
+import classes from "../../assets/SignUp.module.css";
 import AuthContext from "../../store/auth-context";
 import { useHistory } from "react-router-dom";
 

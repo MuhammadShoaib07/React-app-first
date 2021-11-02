@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
 
-import classes from "./Header.module.css";
+import classes from "../../assets/Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 import { Link } from "react-router-dom";
 import Logout from "../Auth/LogOut";

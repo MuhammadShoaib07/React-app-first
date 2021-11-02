@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import Input from "../UI/Input";
 import Card from "../UI/Card";
-import clasess from "./Login.module.css";
+import clasess from "../../assets/Login.module.css";
 import AuthContext from "../../store/auth-context";
 
 const Login = () => {

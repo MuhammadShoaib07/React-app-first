@@ -1,7 +1,7 @@
 import React, { useContext, Link } from "react";
 import { useHistory } from "react-router";
 import AuthContext from "../../store/auth-context";
-import classes from "./LogOut.module.css";
+import classes from "../../assets/LogOut.module.css";
 const Logout = () => {
   const authCtx = useContext(AuthContext);
   const history = useHistory();
